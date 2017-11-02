@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="Tribute to Cybersecurity" content="Cybersecurity data collection(via Form) and CYBERWAR">
+  <meta name="keywords" content="HTML,CSS,CYBERWAR,Cybersecurity,Data collection,NIST,">
+    <title>DATA COLLECTION - NIST Form</title>
+    <style>
+      .outside {
+    position: absolute;
+    background-color: #34495e;
+    height: 750px;
+    width: 90vw;
+    padding-top: 25px;
+    padding-left: 100px;
+    border: 10px solid black;
+    margin: 20px;
+    }
+      .inside {
+        padding: 10px;
+        margin: 10px;
+        border: 5px solid black;
+        background-image: url("https://video-images.vice.com/images/video/2116/lede/57717831a83ff7132d3e8d22-1467907387302.jpg?crop=1xw:1xh;center,top&output-quality=90&resize=1200:*?&resize=1200:*&output-quality=75");
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 1180px;
+      }
+      .form {
+        text-align: center;
+        overflow: scroll;
+        height: 250px;
+        width: 380px;
+        background-color: rgba(130, 126, 34, .25);
+        padding: 50px;
+        margin-top: 60px;
+        margin-left: 335px;
+        font-family: 'Abadi MT Condensed Light', serif;
+        color: white;
+        font-size: 1.30em;
+        line-height: 1.75;
+      }
+      h2 {
+        color: white;
+        font-family: 'cochin', serif;
+        font-weight: bold;
+        background-color: rgba(130, 126, 34, .35);
+      }
+      .sideDiv {
+        float: left;
+        background-color: rgba(230, 26, 34, .25);
+        height: 200px;
+        width: 250px;
+        text-align: center;
+        color: white;
+        font-family: 'cochin', serif;
+      }
+      .learnMore {
+        background-color: rgba(130, 126, 34, .55);
+        height: 60px;
+        width: 200px;
+        text-align: center;
+      }
+      #leftside {
+        text-align: left;
+      }
+      .whoDat {
+        background-color: rgba(230, 26, 34, .40);
+        height: 100px;
+        width: 100px;
+        color: white;
+      }
+      #Phineas {
+        float: left;
+        position: absolute;
+        padding-right: 100px;
+      }
+      #Makuch {
+        float: right;
+        padding-right: 100px;
+      }
+      a:visited {
+        color: purple;
+      }
+      a:hover {
+        color: white;
+      }
+      a:active {
+       color: blue;
+      }
+    </style>
+</head>
+<body>
+    <div class="outside">
+      <div class="inside">
+        <h2>Is Your Business Safe From Cybersecurity Threats? Take The Evaluation Here:</h2>
+        <div class="sideDiv"><ul>Which Businesses Have The Most Risk?<ul><li>Healcare Providers</li><li>Higher Education</li><li>Small Businesses</li><li>Manufacturers</li><li>Accounting/Financial Service Providers<br>
+          <div class="learnMore"><br>Learn More About Your Potential Risk Here</div>
+          </div>
+          <div class="form" id="risk">
+         <form action="mailto:ldelgiudice@HCHEnt.com" method="post" enctype="multipart/form-data">
+          <fieldset class="Essential">
+               <legend>Risk Evaluation:</legend>
+               <label>Does your organization provide goods or services to the Federal Government?</label><br>
+               <input type="radio" name=""> Yes  <input type="radio"> No  <br>
+               <label>Will your organization be comliant with <a href="https://www.nist.gov/" target="_blank">NIST</a> resulations by the Dec 2017 deadline?</label><br>
+               <input type="radio" name=""> Yes  <input type="radio"> No  <input type="radio"> Not Applicable<br>
+               <label>My organization needs help with acheiving <a href="https://www.nist.gov/" target="_blank">NIST</a> standards of compliance.</label><br>
+               <input type="radio" name=""> Yes  <input type="radio"> No   <input type="radio"> Not Applicable<br>
+               <label>How often does your organization perform backups of its systems?</label><br>
+               <select name="Backups" size="1">
+                 <option value="Always">Always as scheduled</option>
+                 <option value="Ofted">Often but not scheduled</option>
+                 <option value="Sometimes">Sometimes</option>
+                 <option value="Rarely">Rarely</option>
+                 <option value="Never">Never</option>
+                 <option value="Other">Other</option></select><br>
+               <label>Which type of AntiVirus software does your system use?</label><br>
+               <select name="AntiVirus" size="1">
+                 <option value="MacAfee">MacAfee</option>
+                 <option value="Norton">Norton</option>
+                 <option value="Kaspersky">Kaspersky</option>
+                 <option value="AVG">AVG</option>
+                 <option value="Other">Other</option>
+                 <option value="None">None</option></select><br>
+               <label>How often does your organization perform Windows updates to its system?</label><br>
+               <select name="Windows" size="1">
+                 <option value="Always">Always as scheduled</option>
+                 <option value="Ofted">Often but not scheduled</option>
+                 <option value="Sometimes">Sometimes</option>
+                 <option value="Rarely">Rarely</option>
+                 <option value="Never">Never/Not yet</option>
+                 <option value="Other">Other</option></select><br>
+               <label>For this Organization, IT support services are provided through:</label><br>
+               <select name="services" size="1">
+                 <option value="Inhouse">In-house IT support staff</option>
+                 <option value="Outsourced">Outsourced Managed Services Provider</option>
+                 <option value="None">This organization does not have any IT services</option></select><br>
+               <label>Please rate your overall satisfaction with your past or present managed services provider</label><br>
+               <select name="" size="1">
+                 <option value="Complete">Completely Satisfied</option>
+                 <option value="Somewhat">Somewhat Satisfied</option>
+                 <option value="Dissatisfied">Somewhat Dissatisfied</option>
+                 <option value="Totally">Totally Dissatisfied</option>
+                 <option value="Not Applicable">Not Applicable</option></select><br>
+               <label>This organization would benefit from having an IT professional to support its technology:</label><br>
+               <select name="Windows" size="1">
+                 <option value="Always">Strongly Agree</option>
+                 <option value="Ofted">Somewhat Agree</option>
+                 <option value="Sometimes">Somewhat Disagree</option>
+                 <option value="Rarely">Strongly Disagree</option>
+                 <option value="Never">Not Applicable</option></select><br>
+               <label>I am interested in more information on:</label><br>
+                 <input type="checkbox" name="" value="NIST">NIST Compliance<br>
+                 <input type="checkbox" name="" value="AntiVirus">AntiVirus Software<br>
+                 <input type="checkbox" name="" value="">Backup Support<br>
+                 <input type="checkbox" name="" value="">Windows Updates<br>
+                 <input type="checkbox" name="" value="">Managed Services<br>
+                 <input type="checkbox" name="" value="">IT Support Services<br>
+               </fieldset><br>
+          <fieldset class="Company"><legend>Company Information:</legend>
+             <input type="text" name="" placeholder="Company Name"><br>
+             <label>Small Business?<label><br><input type="radio" name="">Yes <input type="radio" name"">No<br>
+             <label>Non-Profit?</label><br><input type="radio" name="">Yes <input type="radio" name"">No<br>
+             <label>Select Industry:</label><br><select name="Industry" size="1"><option value="Accounting">Accounting</option><option value="Manufacturing">Manufacturing</option><option value="Law">Law</option><option value="Healthcare">Healthcare</option><option value="Property Managment">Property Managment</option><option value="Other">Other</option></select><br>
+             <label>Select total number of locations:</label><br>
+             <input type="number" name="" placeholder="Number of Locations"><br>
+             <label>Number of Employees</label><br>
+             <select name="Employees" size="1"><option value="1">>10</option><option value="2">>50</option><option value="3">>100</option><option value="4">>200</option><option value="5">>500</option><option value="6">>1000</option></option><option value="7">>1000</option></select></fieldset><br>
+          <fieldset class="Contact"><legend>Tell Us About Yourself:</legend>
+             <input type="text" name="" placeholder="First Name"><br>
+             <input type="text" name="" placeholder="Last Name"><br>
+             <input type="text" name="" placeholder="Job Title"><br>
+             <input type="text" name="" placeholder="Email Address"><br>
+             <input type="text" name="" placeholder="Phone Number"><br>
+             <label>Do you have a LinkedIn account?</label><br>
+             <input type="radio"name="">Yes
+             <input type="radio">No<br>
+             <label>Send us a link:</label><br>
+             <input type="text" name=""placeholder="Your LinkedIn url"></fieldset>
+           <input type="submit" value="Submit"><input type="reset" value="Reset">
+        </form><br>
+           <h6 id="leftside">Copywrite <a href="http://www.hchent.com/" target="_blank">HCH Enterprises, LLC</a><h6>
+           <a href="https://twitter.com/HCHEnterprises" target="_blank"><img src="https://cdn0.iconfinder.com/data/icons/Social_Network_Icons_gloss/350/Twitter-px.png" title="Twitter" alt="Twitter" height="50px" width="50px"></a>
+           <a href="https://www.linkedin.com/in/hch-enterprises-llc-b26311117/" target="_blank"><img src="http://www.free-icons-download.net/images/linkedin-logo-icon-65542.png" title="LinkedIn" alt="LinkedIn" height="50px" width="50px"></a>
+</div>
+             <div class="whoDat" id="Phineas">Phineas Fisher<br><a href="https://www.bleepingcomputer.com/news/security/spanish-police-claim-to-have-arrested-phineas-fisher-hacking-team-hacker/" target="_blank"><img src="https://video-images.vice.com/articles/589c8942d8beda21078a01b6/lede/1486653799489-phineas-fisher-puppet.jpeg?crop=0.9194444444444445xw:1xh;center,center&resize=1472:*" height="100px"></a></div>
+             <div class="whoDat" id="Makuch">Ben Makuch<br><a href="https://news.vice.com/article/canadian-judge-orders-vice-news-journalist-to-hand-over-digital-messages" target="_blank"><img src="https://www.thestar.com/content/dam/thestar/news/canada/2017/09/20/vice-urges-rcmp-to-drop-demand-for-materials-after-reports-stating-accused-terrorist-is-dead/ben_makuch_jpg.jpg" height="100px"></a></div>
+      </div>    
+    </div>
+</body>
+</html> 
